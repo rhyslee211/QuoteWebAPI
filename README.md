@@ -124,7 +124,7 @@ To view the output open <http://localhost:8080/quote> in your web browser.
 
 ![image](images/quote.png)
 
-Using a name parameter you can personalize the output of the application. <http://localhost:8080/quote?ID=12>
+Using an ID parameter you can personalize the output of the application. <http://localhost:8080/quote?ID=12>
 
 ![image](images/quote12.png)
 
