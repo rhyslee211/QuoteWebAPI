@@ -70,9 +70,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Java Spring Boot Tutorial
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Java Spring Boot Tutorial`, `project_description`
+A simple famous quote API that can be read from to display the author, quote, and the genre of the quote.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
