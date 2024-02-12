@@ -82,7 +82,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * [![Spring][Spring]][Spring-url]
 * [![Maven][Maven]][Maven-url]
-
+* [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,33 +91,42 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 * Java version 17 or later.
 
 * Apache Maven is used in this tutorial but [Gradle](https://gradle.org/) can also be used.
 
+* PostgreSQL with a database for quotes. I downloaded the database for this project from <https://thewebminer.com/buy-famous-quotes-database> and then used the following command in PostgreSQL to add an ID column.
+
+```console
+ALTER TABLE TABLENAME ADD COLUMN ID SERIAL PRIMARY KEY;
+```
+
 
 ### Installation
 
-First, in the command line nagivate to the root directory of the project.
+First, clone this repository onto your machine using the following command.
+
+```bash
+git clone https://github.com/rhyslee211/QuoteWebAPI.git
+```
+
+Then, in the command line nagivate to the root directory of the project.
 
 Build the application using the following command:
 
 ```bash
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
-To view the output open <http://localhost:8080/greeting> in your web browser.
+To view the output open <http://localhost:8080/quote> in your web browser.
 
-![image](images/greeting.png)
+![image](images/quote.png)
 
-Using a name parameter you can personalize the output of the application. <http://localhost:8080/greeting?name=Rhys>
+Using a name parameter you can personalize the output of the application. <http://localhost:8080/quote?ID=12>
 
-![image](images/greetingRhys.png)
+![image](images/quote12.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,3 +175,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Spring]: https://img.shields.io/badge/Spring-20232A?style=for-the-badge&logo=spring&logoColor=6db33f
 [Maven]: https://img.shields.io/badge/Apache%20Maven-20232A?style=for-the-badge&logo=apachemaven&logoColor=c3203b
 [Maven-url]: https://maven.apache.org/
+[PostgreSQL]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
+[PostgreSQL-url]: https://www.postgresql.org/
