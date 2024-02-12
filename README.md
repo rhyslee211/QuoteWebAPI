@@ -28,10 +28,10 @@
     <img src="images/SpringLogo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Java Spring Boot Tutorial</h3>
+<h3 align="center">Famous Quotes Web API</h3>
 
   <p align="center">
-    This project was created following the tutorial from <a href="https://spring.io/guides/gs/rest-service/">Spring.io.</a>
+    This project returns famous quotes through a Web API using Spring Boot and PostrgeSQL.
     <br />
     <a href="https://github.com/rhyslee211/JavaSpringBootDemo"><strong>Explore the docs »</strong></a>
   </p>
