@@ -1,0 +1,4 @@
+com\example\restservice\quote.class
+com\example\restservice\QuoteDemoApplication.class
+com\example\restservice\quoteRepo.class
+com\example\restservice\quoteController.class
