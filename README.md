@@ -170,7 +170,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
 [Spring-url]: https://spring.io/
-[Spring]: https://img.shields.io/badge/Spring-20232A?style=for-the-badge&logo=spring&logoColor=6db33f
+[Spring]: https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white
 [Maven]: https://img.shields.io/badge/Apache%20Maven-20232A?style=for-the-badge&logo=apachemaven&logoColor=c3203b
 [Maven-url]: https://maven.apache.org/
 [PostgreSQL]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
