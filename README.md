@@ -93,7 +93,7 @@ A simple famous quote API that can be read from to display the author, quote, an
 
 * Java version 17 or later.
 
-* Apache Maven is used in this tutorial but [Gradle](https://gradle.org/) can also be used.
+* [Apache Maven](https://maven.apache.org/) is used in this tutorial but [Gradle](https://gradle.org/) can also be used.
 
 * PostgreSQL with a database for quotes. I downloaded the database for this project from <https://thewebminer.com/buy-famous-quotes-database> and then used the following command in PostgreSQL to add an ID column.
 
